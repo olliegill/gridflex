@@ -8,6 +8,8 @@
 
   npm run dev
 
+  NO MOVING DIVS AROUND. MODIFY TAILWIND ONLY.
+
 Some helpful resources:
 
 - [flex](https://tailwindcss.com/docs/flex)
