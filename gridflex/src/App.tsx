@@ -48,7 +48,6 @@ function App() {
         <img className='' src={myles9} />
       </div>
 
-
       <h2 className='my-8'>Challenge 2</h2>
       <div className="w-1/2 aspect-square bg-[url('src/assets/jonathan/jonBkg.png')] bg-cover">
         <div className='w-full h-full flex'>
@@ -63,11 +62,8 @@ function App() {
           </div>
         </div>
       </div>
-      
-      
-      
+            
       <h2 className='my-8'>Challenge 3</h2>
-      {/* order */}
       <div className="w-1/2 flex flex-wrap ">
           <img className='w-1/3' src={chris6} />
           <img className='w-1/3' src={chris4} />
@@ -81,7 +77,6 @@ function App() {
       </div>
 
       <h2 className='my-8'>Challenge 4</h2>
-      {/* col-span  */}
       <div className='w-1/2 grid grid-cols-3 gap-6'>
         <img className='w-full' src={chrisStretch1} />
         <img className='w-full' src={chris3} />
@@ -91,13 +86,43 @@ function App() {
       </div>
 
       <h2 className='my-8'>Challenge 5</h2>
-      {/* col-span row-span row-start col-start */}
       <div className='w-1/2 grid grid-cols-3'>
         <img className='w-full' src={chrisStretch1} />
         <img className='w-full' src={chris3} />
         <img className='w-full' src={chrisLongStretch} />
         <img className='w-full' src={chrisStretch2} />
         <img className='w-full' src={chrisStretch3} />
+      </div>
+
+      <h2 className='my-8'>Challenge 6</h2>
+      <div className='w-1/2'>
+        <img className='w-1/3' src={myles1} />
+        <img className='w-1/3' src={myles2} />
+        <img className='w-1/3' src={myles3} />
+        <div className=''>
+          <img className='w-1/3' src={myles5} />
+          <img className='w-1/3' src={myles4} />
+          <img className='w-1/3' src={myles6} />
+        </div>
+        <img className='w-1/3' src={myles7} />
+        <img className='w-1/3' src={myles8} />
+        <img className='w-1/3' src={myles9} />
+      </div>
+
+      <h2 className='my-8'>Challenge 7</h2>
+      <div className="w-1/2 aspect-square bg-[url('src/assets/myles/mylesBg.png')] bg-cover">
+        <div className='flex'>
+          <img className='' src={myles1} />
+          <img className='' src={myles2} />
+          <img className='' src={myles3} />
+          <div className= ''>
+            <img className='' src={myles4} />
+            <img className='' src={myles6} />
+          </div>
+          <img className='' src={myles7} />
+          <img className='' src={myles8} />
+          <img className='' src={myles9} />
+        </div>
       </div>
     </div>
   )
